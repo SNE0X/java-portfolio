@@ -1,7 +1,7 @@
 public class CSR_day1 {
     public static void main(String[] args) {
         String name = "arhaan";
-        int age = 22;
+        int age = 40;
         double percentage = 98.0;
         System.out.println("Name: " +name );
         System.out.println("Age: "+age );
