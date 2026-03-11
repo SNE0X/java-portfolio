@@ -1,0 +1,47 @@
+// switch(variable) {
+//     case value1:
+//         // code
+//         break;
+//     case value2:
+//         // code
+//         break;
+//     default:
+//         // code
+// }
+
+import java.util.Scanner;
+public class Day5_SwitchStatement {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter two numbers:");
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+
+        System.out.println("Enter operator (+, -, *, /):");
+        char op = sc.next().charAt(0);
+
+        switch(op) {
+            case '+':
+                System.out.println("Result: " + (a + b));
+                break;
+
+            case '-':
+                System.out.println("Result: " + (a - b));
+                break;
+
+            case '*':
+                System.out.println("Result: " + (a * b));
+                break;
+
+            case '/':
+                System.out.println("Result: " + (a / b));
+                break;
+
+            default:
+                System.out.println("Invalid Operator");
+        }
+    }
+}
+
